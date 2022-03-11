@@ -1,2 +1,0 @@
-# massloop
-Zadanie testowe
