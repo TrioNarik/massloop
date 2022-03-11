@@ -1,11 +1,11 @@
 Zadanie testowe:
 
-+Zakodowanie strony zgodnie z projektem
++ Zakodowanie strony zgodnie z projektem
 
 + Fixed Menu
 
-+RWD
++ RWD
 
-+Aktywny KALKULATOR
++ Aktywny KALKULATOR
 
--brak wersji językowych
+- brak wersji językowych
