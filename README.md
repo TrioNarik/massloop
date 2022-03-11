@@ -2,9 +2,9 @@ Zadanie testowe:
 
 + Zakodowanie strony zgodnie z projektem (fullscreen)
 
-+ Fixed Menu
++ Fixed Menu 
 
-+ RWD
++ RWD (+ kolejność elementów/przycisków)
 
 + Aktywny KALKULATOR
 
