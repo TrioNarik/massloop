@@ -1,5 +1,4 @@
-# massloop
-Zadanie testowe
+Zadanie testowe:
 
 -RWD
 -Aktywny KALKULATOR
