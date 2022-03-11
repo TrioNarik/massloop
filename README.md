@@ -4,7 +4,7 @@ Zadanie testowe:
 
 + Fixed Menu 
 
-+ RWD (+ kolejność elementów/przycisków)
++ RWD (+ kolejność header elementów/przycisków)
 
 + Aktywny KALKULATOR
 
