@@ -1,6 +1,6 @@
 Zadanie testowe:
 
-+ Zakodowanie strony zgodnie z projektem
++ Zakodowanie strony zgodnie z projektem (fullcsreen)
 
 + Fixed Menu
 
