@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* Change the default font  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+/* Change Containers Width and Font size */
+/* Main settings  */
+:root {
+  font-style: normal;
+  --body-fonts: "Montserrat", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 900;
+  --font-size-normal: 20px;
+  --font-size-normal-mobile: 16px;
+  --font-size-big: 2.75em;
+  --font-size-big-mobile: 1.75em;
+  --font-size-med: 2em;
+  --font-size-med-mobile: 1.2em;
+  --font-size-mx: 1.4em;
+  --font-size-mx-mobile: 1em;
+  --font-size-val: 1.2em;
+  --font-size-val-mobile: 1.75em;
+  --font-size-small: 0.8em;
+  --line-height: 1.6em;
+  --line-height-menu: 1em;
+  --line-height-mobile: 25px;
+  --primary-color: #212121;
+  --secondary-color: #fff;
+  --black-color: #000;
+  --link-color: #212121;
+  --bg-color-primary: #fff;
+  --bg-color-seconrady: #ffb001;
+  --bg-color-box: #fafafd;
+  --bg-color-text: var(--primary-color);
+  --border-input: 1px solid var(--primary-color);
+  --border-input-focus: 1px solid var(--bg-color-seconrady);
+  --border-small: 2px solid var(--bg-color-seconrady);
+  --border-big: var(--font-size-normal) solid var(--bg-color-primary);
+  --border-big-mobile: calc(var(--font-size-normal) / 2) solid var(--bg-color-primary);
+  --border-radius-small: calc(var(--font-size-small) - 1px);
+  --border-radius-big: calc(var(--font-size-normal) * 1.5);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container__small {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Font default */
+.font--default {
+  font-family: var(--body-fonts);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-normal);
+  line-height: var(--line-height);
+}
+
+/* Anchor default */
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Text default */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--font-weight-bold);
+}
+
+/* RWD images */
+picture img {
+  max-inline-size: 100%;
+  block-size: auto;
+  inline-size: 100%;
+}
+
+/* Padding Top/Bottom */
+.pad--tb-sx {
+  padding: 0.8em 0;
+}
+
+.pad--tb-min {
+  padding: 1.5em 0;
+}
+
+.pad--tb-mid {
+  padding: 2.5em 0;
+}
+
+.pad--tb-max {
+  padding: 3em 0;
+}
+
+.pad--t {
+  padding-top: 1.5em;
+}
+
+/* Width block text */
+.block--25 {
+  width: 25%;
+}
+
+.block--45 {
+  width: 49%;
+}
+
+.block--65 {
+  width: 65%;
+}
+
+/* Background colors */
+.bg--primary {
+  background: var(--bg-color-primary);
+}
+
+.bg--secondary {
+  background: var(--bg-color-seconrady);
+}
+
+.bg--dark {
+  background: var(--bg-color-text);
+}
+
+/* Font colors */
+.main--color {
+  color: var(--primary-color);
+}
+
+.white--color {
+  color: var(--secondary-color);
+}
+
+.opacity--color {
+  opacity: 50%;
+  padding: 0 1em;
+  font-size: var(--font-size-val);
+}
+
+.opacity--value {
+  opacity: 100%;
+  color: var(--bg-color-seconrady);
+  padding: 0 1em;
+}
+
+.flex__center {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: column;
+  /*w którym kierunku ułożyć elementy potomne*/
+  align-items: center;
+  -webkit-align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex__center--between {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.center__text {
+  text-align: center;
+}
+
+/* For mobile phones: RWD */
+@media (max-width: 768px) {
+  .font--default {
+    font-size: 16px;
+    line-height: var(--line-height-mobile);
+  }
+  .container__small {
+    width: 95%;
+  }
+  /* Padding Top/Bottom */
+  .pad--tb-sx {
+    padding: 0.25em 0;
+  }
+  .pad--tb-min {
+    padding: 0.5em 0;
+  }
+  .pad--tb-mid {
+    padding: 1em 0;
+  }
+  .pad--tb-max {
+    padding: 1.5em 0;
+  }
+  /* Width block text */
+  .block--25 {
+    width: 40%;
+  }
+  .block--45 {
+    width: 100%;
+  }
+  .block--65 {
+    width: 80%;
+  }
+}
