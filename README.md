@@ -1,5 +1,6 @@
 Zadanie testowe:
 
--RWD
--Aktywny KALKULATOR
++Zakodowanie strony zgodnie z projektem
++RWD
++Aktywny KALKULATOR
 -brak wersji językowych
