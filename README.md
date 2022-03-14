@@ -7,5 +7,3 @@ Zadanie testowe:
 + RWD (+ kolejność header elementów/przycisków)
 
 + Aktywny KALKULATOR
-
-- brak wersji językowych
