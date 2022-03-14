@@ -1,12 +1,12 @@
 Zadanie testowe:
 
-+ Zakodowanie strony zgodnie z projektem (domyślnie: fullscreen)
+✔ Zakodowanie strony zgodnie z projektem (domyślnie: fullscreen)
 
-+ Fixed Menu 
+✔ Fixed Menu 
 
-+ RWD (+ kolejność header elementów/przycisków)
+✔ RWD (+ kolejność header elementów/przycisków)
 
-+ Aktywny KALKULATOR
+✔ Aktywny KALKULATOR
 
 ===========================
 
